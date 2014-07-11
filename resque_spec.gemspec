@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('resque', ['>= 1.19.0'])
   s.add_runtime_dependency('rspec-core', ['>= 2.99'])
-  s.add_runtime_dependency('rspec-expectations', ['>= 3.0.0'])
-  s.add_runtime_dependency('rspec-mocks', ['>= 3.0.0'])
+  s.add_runtime_dependency('rspec-expectations', ['>= 2.99'])
+  s.add_runtime_dependency('rspec-mocks', ['>= 2.99'])
   s.add_development_dependency('resque-scheduler')
   s.add_development_dependency('pry')
   s.add_development_dependency('pry-debugger')
